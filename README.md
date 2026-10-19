@@ -1,66 +1,82 @@
 # quiz_project4
-# Code With AI Quiz 🎯
+# Code With AI Quiz
 
-A simple and interactive quiz application built using HTML, CSS, and JavaScript. This project allows users to test their knowledge of coding and AI-related concepts through multiple-choice questions.
+A beginner-friendly web development project that demonstrates the basic structure of a quiz application using HTML, CSS, and JavaScript.
 
-## 📌 Project Overview
+## Project Overview
 
-The **Code With AI Quiz** is a beginner-friendly web development project created to practice front-end development concepts. It provides a basic quiz interface where questions and answer options can be displayed dynamically using JavaScript.
+The Code With AI Quiz project provides a basic quiz interface with dedicated areas for displaying questions, answer options, and results. It was created as a learning project to practice front-end web development and understand how different web technologies work together.
 
-## ✨ Features
+## Technologies Used
 
-- Interactive quiz interface
-- Multiple-choice questions
-- Dynamic question and option display
-- Answer selection and result display
-- Simple and user-friendly design
-- Responsive styling for different screen sizes
+- **HTML5** – Structures the quiz page and its content.
+- **CSS3** – Provides styling through an external stylesheet.
+- **JavaScript** – Intended for quiz functionality and user interactions.
 
-## 🛠️ Technologies Used
-
-- **HTML5** – Structures the quiz interface.
-- **CSS3** – Styles the application.
-- **JavaScript** – Handles quiz logic and user interactions.
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 quiz_project4/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+├── README.md
+└── audit.md
 ```
 
-## 🚀 How to Run the Project
+## Current Project Structure
+
+The HTML page includes:
+
+- A heading titled **Code With AI Quiz**
+- A question area identified by `question`
+- An options container identified by `options`
+- A result element identified by `result`
+- A linked external CSS stylesheet
+
+The complete JavaScript behavior and CSS presentation have not yet been fully audited.
+
+## How to Run
 
 1. Clone or download this repository.
-2. Open the project folder in VS Code.
-3. Open `index.html` in your browser, or use the Live Server extension in VS Code.
-4. Start interacting with the quiz.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in a web browser.
+4. Alternatively, use the Live Server extension if installed.
 
-## 🎓 Learning Outcomes
+**Note:** The complete quiz functionality has not yet been independently tested as part of the audit.
 
-- Understanding HTML page structure
-- Applying CSS for web page styling
-- Using JavaScript to handle user interactions
-- Connecting HTML, CSS, and JavaScript
-- Managing and publishing a project using Git and GitHub
+## Learning Objectives
 
-## 🔮 Future Improvements
+- Understand basic HTML document structure.
+- Link an external CSS stylesheet to an HTML page.
+- Organize a project into separate HTML, CSS, and JavaScript files.
+- Practice project version control using Git and GitHub.
+- Learn how to audit implementation claims against source code.
 
-- Add more quiz questions and categories.
-- Display the final score and percentage.
-- Add a timer for each quiz.
-- Improve responsive design and accessibility.
-- Store high scores for future attempts.
+## Audit Status
 
-## 👩‍💻 Author
+The project has undergone a preliminary audit based on the visible HTML structure and project files.
+
+Verified elements include the main HTML page, question container, options container, result element, and CSS stylesheet link.
+
+Further inspection and testing are required to verify JavaScript functionality, result calculation, user interactions, responsiveness, and the accuracy of quiz questions and answers.
+
+See [`audit.md`](audit.md) for the detailed audit report.
+
+## Future Improvements
+
+- Verify and complete the quiz logic.
+- Test answer selection and result calculation.
+- Validate quiz questions and correct answers.
+- Test the layout at different screen sizes.
+- Update documentation after functionality has been verified.
+
+## Author
 
 **Sakshi Bangar**
 
 Computer Science Engineering Student
 
-## 📄 License
+---
 
-This project is created for educational and learning purposes.
+*Created for educational purposes and front-end development practice.*
